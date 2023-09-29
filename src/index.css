@@ -5,8 +5,8 @@
 @import url("reveal.js/plugin/highlight/monokai.css") layer(reveal);
 
 /* @tailwind base; */
-/* @tailwind components;
-@tailwind utilities; */
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --r-main-font: system-ui;

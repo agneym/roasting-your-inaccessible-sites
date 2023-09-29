@@ -1,0 +1,42 @@
+@layer reveal, tailwind;
+
+@import url("reveal.js/dist/reveal.css") layer(reveal);
+@import url("reveal.js/dist/theme/white.css") layer(reveal);
+@import url("reveal.js/plugin/highlight/monokai.css") layer(reveal);
+
+/* @tailwind base; */
+/* @tailwind components;
+@tailwind utilities; */
+
+:root {
+  --r-main-font: system-ui;
+  --r-heading-font: "Lato", sans-serif;
+  --r-heading-text-transform: unset;
+}
+
+.reveal-viewport {
+  border: 10px solid;
+  border-bottom-width: 0;
+  border-image: linear-gradient(
+      to right,
+      #b9f3e4,
+      #b9f3e4 25%,
+      #ea8fea,
+      #ea8fea 50%,
+      #ffaacf,
+      #ffaacf 75%,
+      #f1f7b5,
+      #f1f7b5 100%
+    )
+    1;
+  border-image-width: 10px 10px 0 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}

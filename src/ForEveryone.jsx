@@ -23,8 +23,8 @@ export function ForEveryone() {
         </figure>
       </section>
       <section>
-        <h1 className="r-fit-text max-w-7xl [text-wrap:balance]">
-          The Kerala High Court declared that the right to have access to
+        <h1 className="max-w-6xl text-6xl leading-normal [text-wrap:balance]">
+          In 2019, Kerala High Court declared that the right to have access to
           Internet becomes the part of right to education as well as right to
           privacy under Article 21 of the Constitution of India.
         </h1>

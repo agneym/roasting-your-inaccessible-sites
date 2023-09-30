@@ -1,4 +1,5 @@
 import Highlight from "react-highlight";
+import { IconButtonsWithText } from "./components/IconButtonsWithText";
 
 export function Examples() {
   return (
@@ -132,7 +133,7 @@ export function Examples() {
               CIVIL RIGHTS TO DISABLED PERSONS.
             </figcaption>
           </figure>
-          <div className="flex items-center">
+          <div className="flex h-fit pt-16">
             <Highlight className="language-html">
               {`<figure>
     <img
@@ -149,6 +150,18 @@ export function Examples() {
 </figure>`}
             </Highlight>
           </div>
+        </div>
+      </section>
+      <section>
+        <h1 className="mb-16 text-4xl">Icon Buttons with Text</h1>
+        <div className="grid grid-cols-2">
+          <IconButtonsWithText />
+          <Highlight className="language-html">
+            {`<button>
+    <img src="source of icon" alt="" />
+    Text
+</button>`}
+          </Highlight>
         </div>
       </section>
     </>

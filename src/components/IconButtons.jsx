@@ -12,14 +12,14 @@ export const IconButtons = () => {
         <HeartIcon className="h-8 w-8" />
       </button>
       <button
-        title="Search"
+        title="Close"
         type="button"
         className="inline-flex h-fit cursor-pointer rounded-full border-none bg-transparent text-gray-800 shadow-none focus:ring-1"
       >
         <XMarkIcon className="h-8 w-8" />
       </button>
       <button
-        title="Search"
+        title="Settings"
         type="button"
         className="inline-flex h-fit cursor-pointer rounded-full border-2 border-green-600 bg-transparent p-2 text-gray-800 shadow-none focus:ring-1"
       >

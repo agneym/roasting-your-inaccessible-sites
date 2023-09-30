@@ -2,20 +2,28 @@ export function Forward() {
   return (
     <>
       <section>
-        <h1 className="text-center text-6xl">Accessiblity Testing Tools</h1>
-        <ul className="ml-0 flex list-none flex-col justify-center gap-y-4 pl-0">
-          <ListItemLink href="https://wave.webaim.org/">Wave</ListItemLink>
-          <ListItemLink href="https://www.deque.com/axe/devtools/">
-            Axe DevTools
-          </ListItemLink>
-          <ListItemLink href="https://pa11y.org/">Pa11y</ListItemLink>
-          <ListItemLink href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk">
-            Lighthouse
-          </ListItemLink>
-          <ListItemLink href="https://webaim.org/resources/contrastchecker/">
-            WebAIM Contrast Checker
-          </ListItemLink>
-        </ul>
+        <h1>What can a business do right now?</h1>
+      </section>
+      <section>
+        <h1>
+          <span>Accessibility is a </span>
+          <br />
+          Reverse Captcha
+        </h1>
+      </section>
+      <section>
+        <div className="grid grid-cols-2 gap-x-16">
+          <ul className="flex flex-col gap-y-8">
+            <li>Captchas are proof that the user is human.</li>
+            <li>
+              Accessibility is proof that the Website is build for humans.
+            </li>
+          </ul>
+          <img
+            src="/robot-staring-screen.png"
+            alt="Comic of frustrated robot staring at the screen because they are not able to solve captcha"
+          />
+        </div>
       </section>
       <section>
         <h1 className="r-fit-text [text-wrap:unset]">
@@ -27,15 +35,5 @@ export function Forward() {
         </a>
       </section>
     </>
-  );
-}
-
-function ListItemLink({ href, children }) {
-  return (
-    <li className="text-center">
-      <a href={href} target="_blank" rel="noopener noreferrer">
-        {children}
-      </a>
-    </li>
   );
 }

@@ -126,27 +126,6 @@ export function ForEveryone() {
           <figcaption className="text-2xl">- Cindy Li</figcaption>
         </figure>
       </section>
-      <section>
-        <h1>
-          <span>Accessibility is a </span>
-          <br />
-          Reverse Captcha
-        </h1>
-      </section>
-      <section>
-        <div className="grid grid-cols-2 gap-x-16">
-          <ul className="flex flex-col gap-y-8">
-            <li>Captchas are proof that the user is human.</li>
-            <li>
-              Accessibility is proof that the Website is build for humans.
-            </li>
-          </ul>
-          <img
-            src="/robot-staring-screen.png"
-            alt="Comic of frustrated robot staring at the screen because they are not able to solve captcha"
-          />
-        </div>
-      </section>
     </>
   );
 }

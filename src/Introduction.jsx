@@ -9,7 +9,7 @@ export function Introduction() {
         />
         <h1>
           Roasting your <br />
-          Non Accessible <br />
+          Inaccessible <br />
           Websites
         </h1>
       </section>

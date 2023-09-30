@@ -53,7 +53,11 @@ export function Images() {
       <section>
         <div className="grid grid-cols-2">
           <figure className="h-2/4">
-            <img src="/capitol-crawl.jpeg" alt="" className="max-w-full" />
+            <img
+              src="/capitol-crawl.jpeg"
+              alt="A group of handicapped people crawling up stairs"
+              className="max-w-full"
+            />
             <figcaption className="text-lg">
               A GROUP OF HANDICAPPED PEOPLE LED BY 8-YEAR-OLD JENNIFER KEELAN
               CRAWL UP THE STEPS OF THE U.S. CAPITOL IN WASHINGTON, TO DRAW

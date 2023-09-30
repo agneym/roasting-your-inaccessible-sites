@@ -5,6 +5,8 @@ import RevealMarkdown from "reveal.js/plugin/markdown/markdown.esm.js";
 import { Introduction } from "./Introduction";
 import { Definition } from "./Definition";
 import { Examples } from "./Examples";
+import { ForEveryone } from "./ForEveryone";
+import { Forward } from "./Forward";
 
 function App() {
   const isLoadedRef = useRef(false);
@@ -26,6 +28,8 @@ function App() {
       <Introduction />
       <Definition />
       <Examples />
+      <ForEveryone />
+      <Forward />
     </div>
   );
 }

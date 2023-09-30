@@ -1,3 +1,5 @@
+import Highlight from "react-highlight";
+
 export function Examples() {
   return (
     <>
@@ -53,15 +55,26 @@ export function Examples() {
           </ul>
         </div>
       </section>
-      <section>
-        <pre>
-          <code className="language-html" data-line-numbers="3,4|5">
-            &lt;img maxlength=&quot;1&quot; type=&quot;number&quot;
-            inputmode=&quot;numeric&quot; pattern=&quot;[0-9]*&quot;
-            autocomplete=&quot;one-time-code&quot; /&gt;
-            <p>Content</p>
-          </code>
-        </pre>
+      <section data-auto-animate>
+        <Highlight className="language-html">
+          {`<input
+    type="number"
+    inputMode="numeric"
+    pattern="[0-9]*"
+    maxLength="1"
+/>`}
+        </Highlight>
+      </section>
+      <section data-auto-animate>
+        <Highlight className="language-html">
+          {`<input
+    type="number"
+    inputMode="numeric"
+    pattern="[0-9]*"
+    maxLength="1"
+    autoComplete="one-time-code"
+/>`}
+        </Highlight>
       </section>
       <section data-auto-animate="">
         <h1>Images</h1>
@@ -69,11 +82,9 @@ export function Examples() {
       <section data-auto-animate>
         <h1>Images</h1>
         <h2 className="text-gray-800">Always have an alt tag</h2>
-        <pre>
-          <code data-trim>
-            <img src="source of element" alt="" />
-          </code>
-        </pre>
+        <Highlight className="language-html">
+          {`<img src="source of element" alt="" />`}
+        </Highlight>
       </section>
       <section>
         <img
@@ -122,23 +133,21 @@ export function Examples() {
             </figcaption>
           </figure>
           <div className="flex items-center">
-            <pre>
-              <code className="language-html">
-                <figure>
-                  <img
-                    src="/capitol-crawl.jpeg"
-                    alt=""
-                    className="max-w-full"
-                  />
-                  <figcaption>
-                    A GROUP OF HANDICAPPED PEOPLE LED BY 8-YEAR-OLD JENNIFER
-                    KEELAN CRAWL UP THE STEPS OF THE U.S. CAPITOL IN WASHINGTON,
-                    TO DRAW SUPPORT FOR A KEY BILL PENDING IN THE HOUSE THAT
-                    WOULD EXTEND CIVIL RIGHTS TO DISABLED PERSONS.
-                  </figcaption>
-                </figure>
-              </code>
-            </pre>
+            <Highlight className="language-html">
+              {`<figure>
+    <img
+      src="/capitol-crawl.jpeg"
+      alt=""
+      className="max-w-full"
+    />
+    <figcaption>
+      A GROUP OF HANDICAPPED PEOPLE LED BY 8-YEAR-OLD JENNIFER
+      KEELAN CRAWL UP THE STEPS OF THE U.S. CAPITOL IN WASHINGTON,
+      TO DRAW SUPPORT FOR A KEY BILL PENDING IN THE HOUSE THAT
+      WOULD EXTEND CIVIL RIGHTS TO DISABLED PERSONS.
+    </figcaption>
+</figure>`}
+            </Highlight>
           </div>
         </div>
       </section>

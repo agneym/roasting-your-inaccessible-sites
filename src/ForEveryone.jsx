@@ -2,6 +2,15 @@ export function ForEveryone() {
   return (
     <>
       <section>
+        <h1 className="r-fit-text">
+          <span>Accessibility is</span>
+          <br />
+          <span>for Everyone</span>
+          <br />
+          <span className="opacity-20">by Everyone</span>
+        </h1>
+      </section>
+      <section>
         <figure>
           <blockquote className="w-full text-5xl shadow-none [text-wrap:balance]">
             We must recognise internet access as a basic right and we must work
@@ -108,15 +117,6 @@ export function ForEveryone() {
             by Vidhi Centre for Legal Policy, I-Stem and Mission Accessibility
           </caption>
         </table>
-      </section>
-      <section>
-        <h1 className="r-fit-text">
-          <span>Accessibility is</span>
-          <br />
-          <span>for Everyone</span>
-          <br />
-          <span>by Everyone</span>
-        </h1>
       </section>
       <section>
         <figure>

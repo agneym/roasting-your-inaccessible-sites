@@ -1,5 +1,6 @@
 import Highlight from "react-highlight";
 import { IconButtonsWithText } from "./components/IconButtonsWithText";
+import { OTPScreen } from "./components/OTPScreen.jsx";
 
 export function Examples() {
   return (
@@ -9,52 +10,27 @@ export function Examples() {
           OTP Input
         </h1>
       </section>
-      <section>
-        <img
-          src="./otp-input.png"
-          alt="screenshot of an OTP input"
-          className="shadow-lg"
-        />
+      <section data-disable-layout>
+        <OTPScreen />
       </section>
       <section>
-        <div className="grid grid-cols-2">
-          <img
-            src="./otp-input.png"
-            alt="screenshot of an OTP input"
-            className="w-full shadow-lg"
-          />
-          <ul className="flex flex-col gap-y-4">
-            <li className="fragment">
-              User should be able to paste into the item
-            </li>
-            <li className="fragment">
-              User should be able to use arrow keys to navigate between the
-              inputs
-            </li>
-            <li className="fragment">
-              User should be able to use backspace/delete to delete the input
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section>
-        <div className="grid grid-cols-2">
-          <img
-            src="./otp-input.png"
-            alt="screenshot of an OTP input"
-            className="w-full shadow-lg"
-          />
-          <ul className="flex flex-col gap-y-4">
-            <li className="fragment">
-              User should be able to use tab to navigate into and out of the
-              inputs
-            </li>
-            <li className="fragment">
-              Hide visual design and provide a single input for screenreader
-              users.
-            </li>
-          </ul>
-        </div>
+        <ul className="flex flex-col gap-y-4">
+          <li>User should be able to paste into the item</li>
+          <li className="fragment">
+            User should be able to use arrow keys to navigate between the inputs
+          </li>
+          <li className="fragment">
+            User should be able to use backspace/delete to delete the input
+          </li>
+          <li className="fragment">
+            User should be able to use tab to navigate into and out of the
+            inputs
+          </li>
+          <li className="fragment">
+            Hide visual design and provide a single input for screenreader
+            users.
+          </li>
+        </ul>
       </section>
       <section data-auto-animate>
         <Highlight className="language-html">

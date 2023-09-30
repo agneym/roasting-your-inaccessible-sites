@@ -1,58 +1,9 @@
 import Highlight from "react-highlight";
-import { IconButtonsWithText } from "./components/IconButtonsWithText";
-import { OTPScreen } from "./components/OTPScreen.jsx";
+import { IconButtonsWithText } from "../components/IconButtonsWithText";
 
-export function Examples() {
+export function Images() {
   return (
     <>
-      <section>
-        <h1 className="underline decoration-gray-500 decoration-dashed">
-          OTP Input
-        </h1>
-      </section>
-      <section data-disable-layout>
-        <OTPScreen />
-      </section>
-      <section>
-        <ul className="flex flex-col gap-y-4">
-          <li>User should be able to paste into the item</li>
-          <li className="fragment">
-            User should be able to use arrow keys to navigate between the inputs
-          </li>
-          <li className="fragment">
-            User should be able to use backspace/delete to delete the input
-          </li>
-          <li className="fragment">
-            User should be able to use tab to navigate into and out of the
-            inputs
-          </li>
-          <li className="fragment">
-            Hide visual design and provide a single input for screenreader
-            users.
-          </li>
-        </ul>
-      </section>
-      <section data-auto-animate>
-        <Highlight className="language-html">
-          {`<input
-    type="number"
-    inputMode="numeric"
-    pattern="[0-9]*"
-    maxLength="1"
-/>`}
-        </Highlight>
-      </section>
-      <section data-auto-animate>
-        <Highlight className="language-html">
-          {`<input
-    type="number"
-    inputMode="numeric"
-    pattern="[0-9]*"
-    maxLength="1"
-    autoComplete="one-time-code"
-/>`}
-        </Highlight>
-      </section>
       <section data-auto-animate="">
         <h1>Images</h1>
       </section>
@@ -130,14 +81,16 @@ export function Examples() {
       </section>
       <section>
         <h1 className="mb-16 text-4xl">Icon Buttons with Text</h1>
-        <div className="grid grid-cols-2">
+        <div className="flex flex-col">
           <IconButtonsWithText />
-          <Highlight className="language-html">
-            {`<button>
+          <div className="fragment">
+            <Highlight className="language-html">
+              {`<button>
     <img src="source of icon" alt="" />
     Text
 </button>`}
-          </Highlight>
+            </Highlight>
+          </div>
         </div>
       </section>
     </>

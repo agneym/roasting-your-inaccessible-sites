@@ -1,5 +1,6 @@
 import Highlight from "react-highlight";
 import { IconButtonsWithText } from "../components/IconButtonsWithText";
+import { IconButtons } from "../components/IconButtons";
 
 export function Images() {
   return (
@@ -88,6 +89,19 @@ export function Images() {
               {`<button>
     <img src="source of icon" alt="" />
     Text
+</button>`}
+            </Highlight>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h1 className="mb-16 text-4xl">Icon Buttons</h1>
+        <div className="flex flex-col gap-y-4">
+          <IconButtons />
+          <div className="fragment">
+            <Highlight className="language-html">
+              {`<button title="specify what the action is">
+    <img src="source of icon" alt="specify what the action is" />
 </button>`}
             </Highlight>
           </div>

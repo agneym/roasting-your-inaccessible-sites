@@ -29,16 +29,6 @@ export function Definition() {
           <li>Testing</li>
         </ul>
       </section>
-      <section>
-        <figure>
-          <blockquote className="w-full text-5xl shadow-none [text-wrap:balance]">
-            Across the one million home pages, <strong>49,991,225</strong>{" "}
-            distinct accessibility errors were detected—an average of{" "}
-            <strong>50</strong> errors per page
-          </blockquote>
-          <figcaption>- The WebAIM Million 2023</figcaption>
-        </figure>
-      </section>
     </>
   );
 }

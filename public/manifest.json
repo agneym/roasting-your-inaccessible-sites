@@ -1,0 +1,9 @@
+{
+  "theme_color": "#b9f3e4",
+  "background_color": "#000",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Roasting your Inaccessible Websites",
+  "short_name": "a11y"
+}

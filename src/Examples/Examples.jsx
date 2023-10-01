@@ -4,6 +4,9 @@ import { Images } from "./Images";
 export function Examples() {
   return (
     <>
+      <section>
+        <h1 className="r-fit-text">What&apos;s Inaccessible?</h1>
+      </section>
       <Images />
       <OTPInput />
       <section>

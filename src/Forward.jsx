@@ -12,6 +12,9 @@ export function Forward() {
         </h1>
       </section>
       <section>
+        <h1 className="mb-16 text-6xl sm:text-4xl">
+          Accessibility is Reverse Captcha
+        </h1>
         <div className="grid grid-cols-2 gap-x-16">
           <ul className="flex flex-col gap-y-8">
             <li>Captchas are proof that the user is human.</li>

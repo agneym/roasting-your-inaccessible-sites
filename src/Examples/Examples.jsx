@@ -4,8 +4,8 @@ import { Images } from "./Images";
 export function Examples() {
   return (
     <>
-      <OTPInput />
       <Images />
+      <OTPInput />
       <section>
         <h1 className="text-center text-6xl">Accessiblity Testing Tools</h1>
         <ul className="ml-0 flex list-none flex-col justify-center gap-y-4 pl-0">

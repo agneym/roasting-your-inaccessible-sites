@@ -15,21 +15,28 @@ export function Images() {
           {`<img src="source of element" alt="" />`}
         </Highlight>
       </section>
-      <section>
+      <section data-auto-animate>
         <img
           src="/pakistan-cricket-fan.jpeg"
           alt="Cricket fan looking disappointed and exasperated"
         />
-        <p>
-          <strong>Guy with hands on hips</strong>
+        <p className="font-bold">Image of Guy with hands on hips</p>
+      </section>
+      <section data-auto-animate>
+        <img
+          src="/pakistan-cricket-fan.jpeg"
+          alt="Cricket fan looking disappointed and exasperated"
+        />
+        <p className="font-bold">
+          <span className="line-through">Image of</span> Guy with hands on hips
         </p>
       </section>
       <section>
         <div className="grid grid-cols-2 gap-x-4">
           <img
             src="/pakistan-cricket-fan.jpeg"
-            alt="Cricket fan looking disappointed and exasperated"
             className="self-center"
+            alt="Meme containing a cricket fan looking disappointed and exasperated"
           />
           <div className="flex flex-col gap-y-16">
             <h1 className="text-6xl">
@@ -110,6 +117,29 @@ export function Images() {
             </Highlight>
           </div>
         </div>
+      </section>
+      <section>
+        <h1 className="text-4xl">Resources</h1>
+        <ul>
+          <li>
+            <a
+              href="https://www.w3.org/WAI/tutorials/images/decision-tree/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              An alt Decision Tree - WAI
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://web.dev/learn/accessibility/images/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Accessibility Images - web.dev
+            </a>
+          </li>
+        </ul>
       </section>
     </>
   );

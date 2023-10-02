@@ -6,7 +6,6 @@ import { Introduction } from "./Introduction";
 import { Definition } from "./Definition";
 import { Examples } from "./Examples";
 import { ForEveryone } from "./ForEveryone";
-import { Forward } from "./Forward";
 import { Conclusion } from "./Conclusion";
 
 function App() {
@@ -30,7 +29,6 @@ function App() {
       <Definition />
       <Examples />
       <ForEveryone />
-      <Forward />
       <Conclusion />
     </div>
   );

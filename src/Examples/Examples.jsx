@@ -1,5 +1,6 @@
 import { OTPInput } from "./OTPInput";
 import { Images } from "./Images";
+import { Motion } from "./Motion";
 
 export function Examples() {
   return (
@@ -8,6 +9,7 @@ export function Examples() {
         <h1 className="r-fit-text">What&apos;s Inaccessible?</h1>
       </section>
       <Images />
+      <Motion />
       <OTPInput />
       <section>
         <h1 className="text-center text-6xl">Accessiblity Testing Tools</h1>

@@ -45,7 +45,10 @@ export function Images() {
             </h1>
             <h2 className="text-4xl">
               For eg.
-              <strong>Cricket fan looking disappointed and exasperated</strong>
+              <strong>
+                Meme containing a cricket fan looking disappointed and
+                exasperated
+              </strong>
             </h2>
           </div>
         </div>
@@ -72,7 +75,7 @@ export function Images() {
               CIVIL RIGHTS TO DISABLED PERSONS.
             </figcaption>
           </figure>
-          <div className="flex h-fit pt-16">
+          <div className="fragment fade-up flex h-fit pt-16">
             <Highlight className="language-html">
               {`<figure>
     <img

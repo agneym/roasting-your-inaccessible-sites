@@ -11,22 +11,27 @@ export function Conclusion() {
         </h1>
       </section>
       <section>
-        <h1 className="r-fit-text">Accessibility is just the beginning.</h1>
-        <h1 className="r-fit-text">Usability is the boss battle.</h1>
-      </section>
-      <section>
-        <figure>
-          <img src="/qr-code.png" alt="https://a11y.agney.dev" />
-          <figcaption>
+        <h1 className="r-fit-text">Image Alt Decision Map</h1>
+        <ol>
+          <li>
             <a
-              href="https://a11y.agney.dev"
+              href="https://www.w3.org/WAI/tutorials/images/decision-tree/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              a11y.agney.dev
+              An alt Decision Tree - WAI
             </a>
-          </figcaption>
-        </figure>
+          </li>
+          <li>
+            <a
+              href="https://web.dev/learn/accessibility/images/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Accessibility Images - web.dev
+            </a>
+          </li>
+        </ol>
       </section>
       <section>
         <h1>Courses</h1>
@@ -129,6 +134,50 @@ export function Conclusion() {
           </li>
         </ol>
       </section>
+      <section>
+        <h1 className="text-center text-6xl">Accessiblity Testing Tools</h1>
+        <ol className="ml-0 flex flex-col justify-center gap-y-4 pl-0">
+          <ListItemLink href="https://wave.webaim.org/">Wave</ListItemLink>
+          <ListItemLink href="https://www.deque.com/axe/devtools/">
+            Axe DevTools
+          </ListItemLink>
+          <ListItemLink href="https://pa11y.org/">Pa11y</ListItemLink>
+          <ListItemLink href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk">
+            Lighthouse
+          </ListItemLink>
+          <ListItemLink href="https://webaim.org/resources/contrastchecker/">
+            WebAIM Contrast Checker
+          </ListItemLink>
+        </ol>
+      </section>
+      <section>
+        <figure>
+          <img src="/qr-code.png" alt="https://a11y.agney.dev" />
+          <figcaption>
+            <a
+              href="https://a11y.agney.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              a11y.agney.dev
+            </a>
+          </figcaption>
+        </figure>
+      </section>
+      <section>
+        <h1 className="r-fit-text">Accessibility is just the beginning.</h1>
+        <h1 className="r-fit-text">Usability is the boss battle.</h1>
+      </section>
     </>
+  );
+}
+
+function ListItemLink({ href, children }) {
+  return (
+    <li className="text-center">
+      <a href={href} target="_blank" rel="noopener noreferrer">
+        {children}
+      </a>
+    </li>
   );
 }

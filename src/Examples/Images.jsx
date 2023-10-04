@@ -121,29 +121,6 @@ export function Images() {
           </div>
         </div>
       </section>
-      <section>
-        <h1 className="text-4xl">Resources</h1>
-        <ul>
-          <li>
-            <a
-              href="https://www.w3.org/WAI/tutorials/images/decision-tree/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              An alt Decision Tree - WAI
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://web.dev/learn/accessibility/images/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Accessibility Images - web.dev
-            </a>
-          </li>
-        </ul>
-      </section>
     </>
   );
 }

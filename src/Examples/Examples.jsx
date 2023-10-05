@@ -6,7 +6,9 @@ export function Examples() {
   return (
     <>
       <section>
-        <h1 className="r-fit-text">What&apos;s Inaccessible?</h1>
+        <h1 className="r-fit-text">
+          What&apos;s <br /> Inaccessible?
+        </h1>
       </section>
       <Images />
       <Motion />

@@ -17,6 +17,12 @@ export function Motion() {
         </video>
       </section>
       <section>
+        <img
+          src="/81la2a.jpg"
+          alt="Meme of a guy saying No to Kermit excited animation but Yes to Kermit excited animation wrapped in prefers-reduced-motion media query"
+        />
+      </section>
+      <section>
         <Highlight className="language-css">
           {`@media (prefers-reduced-motion: no-preference) {
   .animation {
@@ -28,12 +34,6 @@ export function Motion() {
 mediaQuery.addEventListener('change', () => {
   // Start JavaScript based animations
 });`}</Highlight>
-      </section>
-      <section>
-        <img
-          src="/81la2a.jpg"
-          alt="Meme of a guy saying No to Kermit excited animation but Yes to Kermit excited animation wrapped in prefers-reduced-motion media query"
-        />
       </section>
     </>
   );

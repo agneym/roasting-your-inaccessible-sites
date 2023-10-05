@@ -86,7 +86,7 @@ export function Images() {
               {`<figure>
     <img
       src="/capitol-crawl.jpeg"
-      alt=""
+      alt="A group of handicapped people crawling up stairs"
       className="max-w-full"
     />
     <figcaption>

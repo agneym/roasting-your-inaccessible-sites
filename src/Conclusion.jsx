@@ -166,7 +166,7 @@ export function Conclusion() {
       </section>
       <section>
         <h1 className="r-fit-text">Accessibility is just the beginning.</h1>
-        <h1 className="r-fit-text">Usability is the boss battle.</h1>
+        <h1 className="r-fit-text fragment">Usability is the boss battle.</h1>
       </section>
     </>
   );

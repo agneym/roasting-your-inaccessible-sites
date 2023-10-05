@@ -20,7 +20,7 @@ export function Images() {
           src="/pakistan-cricket-fan.jpeg"
           alt="Cricket fan looking disappointed and exasperated"
         />
-        <p className="font-bold">Image of Guy with hands on hips</p>
+        <p className="fragment font-bold">Image of Guy with hands on hips</p>
       </section>
       <section data-auto-animate>
         <img

@@ -39,6 +39,18 @@ export function ForEveryone() {
           <figcaption className="text-2xl">- Cindy Li</figcaption>
         </figure>
       </section>
+      <section>
+        <figure>
+          <blockquote className="w-full text-5xl shadow-none [text-wrap:balance]">
+            We must recognise internet access as a basic right and we must work
+            to make sure all young people can connect to a web that gives them
+            the power to shape their world.
+          </blockquote>
+          <figcaption className="text-2xl">
+            - Tim Berners-Lee on Web&apos;s 32nd Birthday
+          </figcaption>
+        </figure>
+      </section>
     </>
   );
 }

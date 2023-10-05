@@ -29,6 +29,12 @@ mediaQuery.addEventListener('change', () => {
   // Start JavaScript based animations
 });`}</Highlight>
       </section>
+      <section>
+        <img
+          src="/81la2a.jpg"
+          alt="Meme of a guy saying No to Kermit excited animation but Yes to Kermit excited animation wrapped in prefers-reduced-motion media query"
+        />
+      </section>
     </>
   );
 }

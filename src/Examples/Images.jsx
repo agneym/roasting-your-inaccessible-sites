@@ -22,6 +22,12 @@ export function Images() {
         />
         <p className="fragment font-bold">Image of Guy with hands on hips</p>
       </section>
+      <section>
+        <img
+          src="/81l3n9.jpg"
+          alt="Meme of three spiderman figures pointing at each other. Each have titles of Image of, Picture of and <Img />"
+        />
+      </section>
       <section data-auto-animate>
         <img
           src="/pakistan-cricket-fan.jpeg"
@@ -95,6 +101,9 @@ export function Images() {
         </div>
       </section>
       <section>
+        <h1>Icons</h1>
+      </section>
+      <section>
         <h1 className="mb-16 text-4xl">Icon Buttons with Text</h1>
         <div className="flex flex-col">
           <IconButtonsWithText />
@@ -107,6 +116,12 @@ export function Images() {
             </Highlight>
           </div>
         </div>
+      </section>
+      <section>
+        <img
+          src="/81l5wm.jpg"
+          alt="Meme of designer pointing to a icon asking if it's a button."
+        />
       </section>
       <section>
         <h1 className="mb-16 text-4xl">Icon Buttons</h1>
